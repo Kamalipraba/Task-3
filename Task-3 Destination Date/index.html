@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Date</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+ 
+<body>
+    <div>
+        <h2 class="title">
+          Destination Date
+        </h2>
+      <div class="main-content">
+      
+        <div>
+          <label for="start">Start:</label>
+          <input  class="box" type="text" id="startLocation" placeholder=" " />
+          <label for="end">End:</label>
+          <input  class="box" type="text" id="endLocation" placeholder=" " />
+          <label for="Date">Start Date:</label>
+          <input  class="box" type="text" id="startDate"  />
+        
+          <button id="check-palindrome" onclick=" calculateDelivery()">
+           CALCULATE
+          </button>
+          <div class="fetch">
+            <p id="result" >
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <script src="script.js"></script>
+</body> 
+
+</html>
+
